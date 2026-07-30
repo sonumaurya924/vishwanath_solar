@@ -70,7 +70,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <strong className="block text-slate-900 font-bold mb-0.5">Physical Address:</strong>
-                      <span>{BUSINESS_INFO.address.full}</span>
+                      <span>{BUSINESS_INFO.address}</span>
                     </div>
                   </div>
 
