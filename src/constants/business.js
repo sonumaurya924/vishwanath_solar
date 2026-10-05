@@ -22,6 +22,7 @@ export const BUSINESS_INFO = {
     full: "Near Sunbeam Dalims, Parmanandpur, Rohaniya, Varanasi, UP - 221107"
   },
   googleMapsUrl: "https://maps.google.com/?q=Rohaniya+Varanasi+Solar",
+  googleMapEmbed: "https://maps.google.com/maps?q=Near+Sunbeam+Dalims,Parmanandpur,Rohaniya,Varanasi&t=&z=15&ie=UTF8&iwloc=&output=embed",
   workingHours: "Mon - Sat: 9:00 AM - 7:00 PM (Sunday By Appointment)",
   registration: {
     mnreApproved: true,

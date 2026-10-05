@@ -47,7 +47,7 @@ export default function ContactPage() {
             Contact Vishwanath Solar
           </h1>
           <p className="text-slate-300 text-base max-w-2xl mx-auto leading-relaxed">
-            Have questions about solar installation or PM Surya Ghar subsidy? Speak directly with owner Amit Maurya.
+            Have questions about solar installation or PM Surya Ghar subsidy? Speak directly with owner {BUSINESS_INFO.owner}.
           </p>
         </div>
       </section>
@@ -70,7 +70,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <strong className="block text-slate-900 font-bold mb-0.5">Physical Address:</strong>
-                      <span>{BUSINESS_INFO.address}</span>
+                      <span>{BUSINESS_INFO.address.full}</span>
                     </div>
                   </div>
 
@@ -88,6 +88,18 @@ export default function ContactPage() {
                           {BUSINESS_INFO.phones[1]}
                         </a>
                       </div>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <div className="w-10 h-10 rounded-xl bg-violet-500/10 text-violet-600 flex items-center justify-center shrink-0">
+                      <Mail className="w-5 h-5" />
+                    </div>
+                    <div>
+                      <strong className="block text-slate-900 font-bold mb-0.5">Email Support:</strong>
+                      <a href={`mailto:${BUSINESS_INFO.email}`} className="text-solar-primary hover:underline font-medium">
+                        {BUSINESS_INFO.email}
+                      </a>
                     </div>
                   </div>
 
